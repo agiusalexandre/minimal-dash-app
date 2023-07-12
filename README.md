@@ -48,6 +48,7 @@ npm i @aws-cdk/aws-apprunner-alpha
 cdk bootstrap
 cdk deploy
 ```
+
 You should see an output similar to the following:
 
 ![prompt](cdkdeploy.png)
@@ -59,12 +60,6 @@ CDK will prompt you before creating the infrastructure because it will create in
 Once it completes, you will see an output with the link to the public URL to access your service, as shown in the following:
 
 ![prompt](cdkdeploy3.png)
-
-
-When you create a new App Runner service(app), change check protocol and path like below:
-
-![health check configuraiton](screenshot.png)
-
 
 ### Delete the cloud-based infrastructure with cdk
 
