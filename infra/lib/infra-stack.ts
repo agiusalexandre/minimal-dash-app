@@ -15,7 +15,7 @@ export class InfraStack extends cdk.Stack {
         branch: 'main',
         configurationSource: apprunner.ConfigurationSourceType.REPOSITORY,
         connection: apprunner.GitHubConnection.fromConnectionArn('arn:aws:apprunner:eu-west-1:284474675936:connection/AppRunner/39007be3e69c42508a464e1016d04004')
-      })        
+      })
     });
 
     new cdk.CfnOutput(this, "apprunner-url", {
