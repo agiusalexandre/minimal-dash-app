@@ -61,6 +61,12 @@ Once it completes, you will see an output with the link to the public URL to acc
 
 ![prompt](cdkdeploy3.png)
 
+
+When you create a new App Runner service(app), change check protocol and path like below:
+
+![health check configuraiton](screenshot.png)
+
+
 ### Delete the cloud-based infrastructure with cdk
 
 AWS CDK makes it easy to delete your infrastructure with just one command. To remove all the infrastructure you created, use the cdk destroy command—this will only remove infrastructure created during this tutorial. 
