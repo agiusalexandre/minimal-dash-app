@@ -8,4 +8,4 @@ run:
   runtime-version: 3.8
   command: python app.py
   network:
-    port: 8050
+    port: 8080
